@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Playfair_Display, Montserrat } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 const _playfair = Playfair_Display({ subsets: ["latin"] });
 const _montserrat = Montserrat({ subsets: ["latin"] });
@@ -39,6 +40,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`}>
         {children}
+        <WhatsAppButton />
         <Analytics />
       </body>
     </html>
