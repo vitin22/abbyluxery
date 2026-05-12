@@ -8,11 +8,29 @@ const stats = [
   { icon: Shield, value: "100%", label: "Secure Booking" },
 ]
 
+const team = [
+  {
+    name: "Liudmila",
+    role: "Directora Comercial",
+    image: "/Liu.jpeg",
+  },
+  {
+    name: "Abby",
+    role: "Administradora",
+    image: "/Abby.jpeg",
+  },
+  {
+    name: "Yamile",
+    role: "Directora de Marketing",
+    image: "/Yami.jpeg",
+  },
+]
+
 export function TravelAbout() {
   return (
     <section id="about" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="relative">
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
@@ -65,6 +83,38 @@ export function TravelAbout() {
               ))}
             </div>
           </div>
+        </div>
+
+
+
+        {/* Team Section */}
+        <div className="text-center mb-12">
+          <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
+            Our Team
+          </p>
+          <h3 className="font-serif text-3xl md:text-4xl font-bold text-foreground">
+            Meet Our Leadership
+          </h3>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {team.map((member) => (
+            <div key={member.role} className="group text-center">
+              <div className="relative h-80 w-full rounded-lg overflow-hidden mb-6">
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              </div>
+              <h4 className="font-serif text-xl font-bold text-foreground mb-1">
+                {member.name}
+              </h4>
+              <p className="text-primary font-medium">{member.role}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -1,8 +1,8 @@
 import Link from "next/link"
 
 export function WhatsAppButton() {
-  const phoneNumber = "34641912915" // Reemplaza con tu número (con código de país)
-  const message = "Hola VHMDevelopers, me gustaría solicitar información."
+  const phoneNumber = "34699858803" // Reemplaza con tu número (con código de país)
+  const message = "Hola Abby Luxury Boutique, me gustaría solicitar información."
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
   return (
@@ -27,7 +27,7 @@ export function WhatsAppButton() {
 
         {/* Tooltip */}
         <span className="absolute right-16 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity shadow-md pointer-events-none whitespace-nowrap font-medium">
-          ¿Hablamos por WhatsApp?
+          Shall we talk on WhatsApp?
         </span>
       </Link>
     </div>

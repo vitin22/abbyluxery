@@ -43,9 +43,9 @@ export function TravelNavigation() {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <Link href="tel:+1234567890" className="flex items-center gap-2 text-primary">
+          <Link href="tel:+34 699 85 88 03" className="flex items-center gap-2 text-primary">
             <Phone className="h-4 w-4" />
-            <span className="text-sm font-medium">+1 234 567 890</span>
+            <span className="text-sm font-medium">+34 699 85 88 03</span>
           </Link>
           <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
             Book Now

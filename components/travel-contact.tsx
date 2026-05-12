@@ -30,8 +30,8 @@ export function TravelContact() {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
-                <p className="text-muted-foreground">+1 234 567 890</p>
-                <p className="text-muted-foreground">+1 234 567 891</p>
+                <p className="text-muted-foreground">+34 699 85 88 03</p>
+                
               </div>
             </div>
 
@@ -41,8 +41,7 @@ export function TravelContact() {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Email Us</h3>
-                <p className="text-muted-foreground">info@luxurytravel.com</p>
-                <p className="text-muted-foreground">bookings@luxurytravel.com</p>
+                <p className="text-muted-foreground">abby@abbyluxuryboutique.com</p>
               </div>
             </div>
 
@@ -52,8 +51,8 @@ export function TravelContact() {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-1">Visit Us</h3>
-                <p className="text-muted-foreground">123 Luxury Avenue</p>
-                <p className="text-muted-foreground">New York, NY 10001</p>
+                <p className="text-muted-foreground">C. de Mendez Alvaro,20</p>
+                <p className="text-muted-foreground">Arganzuela, 28045 ,Madrid,España</p>
               </div>
             </div>
           </div>

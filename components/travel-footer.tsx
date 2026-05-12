@@ -20,7 +20,7 @@ const footerLinks = {
     { label: "Contact", href: "#contact" },
     { label: "FAQs", href: "#" },
     { label: "Terms of Service", href: "#" },
-    { label: "Privacy Policy", href: "#" },
+    { label: "Privacy Policy", href: "/privacy" },
   ],
 }
 
@@ -115,7 +115,7 @@ export function TravelFooter() {
 
         <div className="border-t border-border mt-12 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} Luxury Middle East Travel. All rights reserved.
+            &copy; {new Date().getFullYear()} Abby Luxury Boutique SL. All rights reserved.
           </p>
         </div>
       </div>
