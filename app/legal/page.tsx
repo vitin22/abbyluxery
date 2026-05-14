@@ -38,8 +38,8 @@ export default function LegalNoticePage() {
                 In accordance with the provisions of Article 10.1 of Law 34/2002 of July 11, on 
                 Information Society Services and Electronic Commerce, the service provider is Abby Luxury Boutique (hereinafter, the PROVIDER), with its registered office 
                 at Calle MÉNDEZ ÁLVARO 20, 28045 MADRID, with Tax Identification Number (CIF) 
-                B26653956, registered in the Madrid Commercial Registry: Volume 307, Page 25192482, CICMA 
-                No. 4661. The General Directorate of Tourism is the public body responsible for the 
+                B26653956, registered in the Madrid Commercial Registry: Volume 307, Page 25192482.
+                 The General Directorate of Tourism is the public body responsible for the 
                 supervision of travel agency activities. The booking or participation in any of our combined tours is subject to the acceptance of the General Conditions established in Royal Decree-Law 23/2018, of December 21, on the transposition of directives relating to trademarks, rail transport, and combined travel packages and linked travel services. These General Conditions apply to 
                 all Combined Travel Contracts and are binding for both parties, together with 
                 the specific conditions indicated in the travel documentation provided to both 
