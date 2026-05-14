@@ -36,15 +36,38 @@ export default function LegalNoticePage() {
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 In accordance with the provisions of Article 10.1 of Law 34/2002 of July 11, on 
-                Information Society Services and Electronic Commerce, the service provider is Abby Luxury Boutique (hereinafter, the PROVIDER), with its registered office 
+                Information Society Services and Electronic Commerce, the service provider is 
+                Abby Luxury Boutique (hereinafter, the PROVIDER), with its registered office 
                 at Calle MÉNDEZ ÁLVARO 20, 28045 MADRID, with Tax Identification Number (CIF) 
                 B26653956, registered in the Madrid Commercial Registry: Volume 307, Page 25192482.
                  The General Directorate of Tourism is the public body responsible for the 
-                supervision of travel agency activities. The booking or participation in any of our combined tours is subject to the acceptance of the General Conditions established in Royal Decree-Law 23/2018, of December 21, on the transposition of directives relating to trademarks, rail transport, and combined travel packages and linked travel services. These General Conditions apply to 
+                supervision of travel agency activities. The booking or participation in any of our combined 
+                tours is subject to the acceptance of the General Conditions established in Royal Decree-Law 23/2018, 
+                of December 21, on the transposition of directives relating to trademarks, rail transport, and combined 
+                travel packages and linked travel services. These General Conditions apply to 
                 all Combined Travel Contracts and are binding for both parties, together with 
                 the specific conditions indicated in the travel documentation provided to both 
                 contracting parties.
               </p>
+
+
+              <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
+                1.1 Guarantees and Regulatory Compliance (Royal Decree-Law 23/2018)
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Abby Luxury Boutique SL, in compliance with the provisions of Royal Decree-Law 23/2018, 
+                of December 21, regarding the transposition of directives on package travel and linked travel 
+                services, hereby informs you that activity packs, tours exceeding 24 hours, or itineraries 
+                accommodation marketed on this website constitute, for legal purposes, a "Package Travel" (Combined trip).
+
+                In accordance with current legislation, Abby Luxury Boutique SL guarantees that travelers will enjoy all the 
+                rights that apply to package travel within the European Union. To this end, the company is responsible for the 
+                proper execution of all travel services included in the contract and maintains an insolvency protection guarantee 
+                duly subscribed with the entity [Insert Name of Insurer or Bank] (Policy No. [Number]), intended for the reimbursement 
+                of your payments and, if transport is included, to guarantee your repatriation in the event that the company becomes insolvent.
+              </p>
+
+
             </section>
 
             {/* Section 2 */}
