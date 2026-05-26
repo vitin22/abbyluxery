@@ -26,7 +26,7 @@ export default function LegalNoticePage() {
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
             Legal Notice
           </h1>
-          <p className="text-primary font-medium mb-12">MANANA SPIRIT S.L.</p>
+          <p className="text-primary font-medium mb-12">Abby Luxury Boutique SL.</p>
 
           <div className="prose prose-invert max-w-none space-y-8">
             {/* Section 1 */}
@@ -35,9 +35,8 @@ export default function LegalNoticePage() {
                 1. Introduction
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                This Legal Notice regulates the use of the Website made available to the User by MANANA SPIRIT S.L., 
-                with NIF (Tax Identification Number) B75297101 and registered office at Calle de la Princesa, 31 
-                planta segunda, Moncloa, 28008, Madrid (hereinafter, &quot;MANANA Tour&quot;).
+                This Legal Notice regulates the use of the Website made available to the User by Abby Luxury Boutique SL., 
+                with NIF (Tax Identification Number) B26653956 and registered office at Calle MÉNDEZ ÁLVARO 20, 28045 MADRID (hereinafter, &quot;Abby Luxury Boutique&quot;).
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 This Legal Notice, the Privacy Policy, and the Cookie Policy collectively constitute the Terms 
@@ -53,7 +52,7 @@ export default function LegalNoticePage() {
                 Any abusive use outside the limits established in this Legal Notice may result in liability.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                This Website is intended for users who are of legal age; MANANA Tour is exempt from any liability 
+                This Website is intended for users who are of legal age; Abby Luxury Boutique  is exempt from any liability 
                 regarding the accuracy and/or truthfulness of the data provided or the use made by the user.
               </p>
             </section>
@@ -98,11 +97,11 @@ export default function LegalNoticePage() {
                 3. Ownership of the Website
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                In compliance with Article 10 of the LSSI, MANANA SPIRIT SL, with NIF B75297101 and registered 
-                office at Calle de la Princesa, 31, planta segunda, Moncloa, 28008, Madrid.
+                In compliance with Article 10 of the LSSI, Abby Luxury Boutique SL, with Tax Identification Number (CIF) B26653956, and registered 
+                office at Calle MÉNDEZ ÁLVARO 20, 28045 MADRID.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                All products and services contained on the Website are provided by MANANA Tour in accordance 
+                All products and services contained on the Website are provided by Abby Luxury Boutique in accordance 
                 with current regulations.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
@@ -111,7 +110,7 @@ export default function LegalNoticePage() {
                 clarifications, or any other matters.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Likewise, we inform you that MANANA Tour is the owner of, or holds the corresponding license to 
+                Likewise, we inform you that Abby Luxury Boutique is the owner of, or holds the corresponding license to 
                 use, the various contents, texts, photographs, drawings, designs, software, source code, and 
                 information incorporated for this purpose and displayed throughout the Website.
               </p>
@@ -123,10 +122,10 @@ export default function LegalNoticePage() {
                 4. Intellectual and Industrial Property
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                MANANA Tour is the owner of, or holds the corresponding license to use, the intellectual and 
+                Abby Luxury Boutique is the owner of, or holds the corresponding license to use, the intellectual and 
                 industrial property exploitation rights of the Website, as well as the content available through 
                 it. In no case shall allowing the user access to the Website be construed as a waiver, transfer, 
-                license, or assignment, in whole or in part, of said rights by MANANA Tour.
+                license, or assignment, in whole or in part, of said rights by Abby Luxury Boutique.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 It is expressly forbidden to delete, bypass, or manipulate any identification data regarding the 
@@ -135,13 +134,13 @@ export default function LegalNoticePage() {
                 Furthermore, it is forbidden to modify, copy, reuse, exploit, reproduce, publicly communicate, make 
                 second or subsequent publications, upload files, send by mail, transmit, use, process, or distribute 
                 in any way all or part of the content included on the Website for public or commercial purposes 
-                without the express written authorization of MANANA Tour or, where applicable, the corresponding 
+                without the express written authorization of Abby Luxury Boutique or, where applicable, the corresponding 
                 rights holder.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                The domain owned by MANANA Tour may not be used in connection with other content, products, or 
+                The domain owned by Abby Luxury Boutique may not be used in connection with other content, products, or 
                 services that are not owned by it, when such action may cause confusion for the end-user or 
-                discredit the company. MANANA Tour reserves the right to use the domain or denomination in the 
+                discredit the company. Abby Luxury Boutique reserves the right to use the domain or denomination in the 
                 field where its owner carries out its activities and related areas. Similarly, it reserves the 
                 right to prevent the use of domains derived from them which, due to their similarity, could lead 
                 to error or confusion regarding the signs, denominations, or business origin of the services.
@@ -168,19 +167,19 @@ export default function LegalNoticePage() {
                 6. General Limitation of Liability
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                MANANA Tour is not responsible for any misuse that the user may make of the Website, nor for 
+                Abby Luxury Boutique is not responsible for any misuse that the user may make of the Website, nor for 
                 the continuity of the content, among other actions.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 The insertion, linking, or mention of any advertising, directly or indirectly, in the services 
-                that MANANA Tour makes available to you on this Website is expressly prohibited.
+                that Abby Luxury Boutique makes available to you on this Website is expressly prohibited.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                MANANA Tour excludes any liability for damages of any nature that may be due to the user&apos;s 
+                Abby Luxury Boutique excludes any liability for damages of any nature that may be due to the user&apos;s 
                 utilization of the services provided.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                The user shall be liable for damages of any nature that MANANA Tour may suffer as a consequence 
+                The user shall be liable for damages of any nature that Abby Luxury Boutique may suffer as a consequence 
                 of non-compliance due to malpractice regarding the services and/or undue use of the content, as 
                 well as those arising from legislation, international standards, and actions taken within national 
                 and/or international jurisdictions.
@@ -193,14 +192,14 @@ export default function LegalNoticePage() {
                 7. Information Security
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                MANANA Tour keeps any data provided by the user protected by means of a current and valid SSL 
+                Abby Luxury Boutique keeps any data provided by the user protected by means of a current and valid SSL 
                 (&quot;Secure Sockets Layer&quot;) security certificate, which creates an encrypted link between the web 
                 server and your browser in order to guarantee security between internet connections, preventing 
                 potential cybercriminals from accessing or modifying the information transferred between the 
                 two systems.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Through this certificate, MANANA Tour guarantees the protection of any information provided by 
+                Through this certificate, Abby Luxury Boutique guarantees the protection of any information provided by 
                 the user, such as:
               </p>
               <ul className="text-muted-foreground leading-relaxed mt-4 list-disc list-inside space-y-2">
@@ -221,12 +220,12 @@ export default function LegalNoticePage() {
                 8. Suspension of Website Access and Services
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                MANANA Tour may choose to interrupt, suspend, or unilaterally terminate access to the content 
+                Abby Luxury Boutique may choose to interrupt, suspend, or unilaterally terminate access to the content 
                 of the Website, regardless of the provisions in these conditions. These situations shall not 
                 alter the validity of the prohibitions on the use of the content set forth in the Legal Notice.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                Furthermore, MANANA Tour will take appropriate measures, as far as possible, to notify users 
+                Furthermore, Abby Luxury Boutique will take appropriate measures, as far as possible, to notify users 
                 of this suspension, interruption, or termination of access to the content.
               </p>
             </section>
@@ -242,7 +241,7 @@ export default function LegalNoticePage() {
                 such nullity or inapplicability shall not affect the remaining conditions contained on the Website.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                The failure of MANANA Tour to exercise or enforce any right or provision contained in these 
+                The failure of Abby Luxury Boutique to exercise or enforce any right or provision contained in these 
                 conditions shall not constitute a waiver thereof, unless acknowledged and agreed to in writing 
                 by the company.
               </p>
@@ -260,11 +259,11 @@ export default function LegalNoticePage() {
                 correspond to them.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                These terms of use are valid for as long as they remain displayed. Therefore, MANANA Tour 
+                These terms of use are valid for as long as they remain displayed. Therefore, Abby Luxury Boutique 
                 advises the user to review them carefully each time they access the Website.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                MANANA Tour reserves the right to unilaterally modify these conditions at any time, in whole 
+                Abby Luxury Boutique reserves the right to unilaterally modify these conditions at any time, in whole 
                 or in part. The modification will take effect from the moment of its publication on the Website.
               </p>
             </section>
