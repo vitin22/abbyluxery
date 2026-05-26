@@ -26,186 +26,246 @@ export default function LegalNoticePage() {
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
             Legal Notice
           </h1>
-          <p className="text-primary font-medium mb-12">Abby Luxury Boutique S.L.</p>
+          <p className="text-primary font-medium mb-12">MANANA SPIRIT S.L.</p>
 
           <div className="prose prose-invert max-w-none space-y-8">
             {/* Section 1 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                1. Legal Information
+                1. Introduction
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                In accordance with the provisions of Article 10.1 of Law 34/2002 of July 11, on 
-                Information Society Services and Electronic Commerce, the service provider is 
-                Abby Luxury Boutique (hereinafter, the PROVIDER), with its registered office 
-                at Calle MÉNDEZ ÁLVARO 20, 28045 MADRID, with Tax Identification Number (CIF) 
-                B26653956, registered in the Madrid Commercial Registry: Volume 307, Page 25192482.
-                 The General Directorate of Tourism is the public body responsible for the 
-                supervision of travel agency activities. The booking or participation in any of our combined 
-                tours is subject to the acceptance of the General Conditions established in Royal Decree-Law 23/2018, 
-                of December 21, on the transposition of directives relating to trademarks, rail transport, and combined 
-                travel packages and linked travel services. These General Conditions apply to 
-                all Combined Travel Contracts and are binding for both parties, together with 
-                the specific conditions indicated in the travel documentation provided to both 
-                contracting parties.
+                This Legal Notice regulates the use of the Website made available to the User by MANANA SPIRIT S.L., 
+                with NIF (Tax Identification Number) B75297101 and registered office at Calle de la Princesa, 31 
+                planta segunda, Moncloa, 28008, Madrid (hereinafter, &quot;MANANA Tour&quot;).
               </p>
-
-
-              <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                1.1 Guarantees and Regulatory Compliance (Royal Decree-Law 23/2018)
-              </h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Abby Luxury Boutique SL, in compliance with the provisions of Royal Decree-Law 23/2018, 
-                of December 21, regarding the transposition of directives on package travel and linked travel 
-                services, hereby informs you that activity packs, tours exceeding 24 hours, or itineraries 
-                accommodation marketed on this website constitute, for legal purposes, a "Package Travel" (Combined trip).
-
-                In accordance with current legislation, Abby Luxury Boutique SL guarantees that travelers will enjoy all the 
-                rights that apply to package travel within the European Union. To this end, the company is responsible for the 
-                proper execution of all travel services included in the contract and maintains an insolvency protection guarantee 
-                duly subscribed with the entity [Insert Name of Insurer or Bank] (Policy No. [Number]), intended for the reimbursement 
-                of your payments and, if transport is included, to guarantee your repatriation in the event that the company becomes insolvent.
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                This Legal Notice, the Privacy Policy, and the Cookie Policy collectively constitute the Terms 
+                and Conditions governing access to and use of the public section of the Website.
               </p>
-
-
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                The use, access, and browsing of the content hosted on this Website implies knowledge and 
+                acceptance of this Legal Notice, the purpose of which is to inform users of their rights, 
+                permitted uses, prohibitions, responsibilities, and other circumstances when browsing the Website.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                The Website incorporates content protected by intellectual and industrial property regulations. 
+                Any abusive use outside the limits established in this Legal Notice may result in liability.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                This Website is intended for users who are of legal age; MANANA Tour is exempt from any liability 
+                regarding the accuracy and/or truthfulness of the data provided or the use made by the user.
+              </p>
             </section>
 
             {/* Section 2 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                2. Access and Use of the Website
+                2. Purpose of the Legal Notice
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                These General Conditions of Access and Use regulate the access and use of the website 
-                &quot;www.abbyluxuryboutique.com&quot; (hereinafter, the Website) that the PROVIDER makes available to 
-                Internet users. Its purpose is to provide the user with information about the 
-                PROVIDER, its activities and products, who we are, the different business areas, 
-                and the latest news published about the PROVIDER. Access to the Website implies 
-                acceptance of these General Conditions of Access and Use; therefore, we ask you 
-                to read them carefully before using the site. If you do not accept these conditions, 
-                please refrain from using the Website and its content. Likewise, the PROVIDER 
-                informs users of this Website that these General Conditions of Access and Use 
-                may be adapted or modified at any time without prior notice. Consequently, the user 
-                must read and accept these General Conditions of Access and Use each time they 
-                wish to use the Website. The user undertakes to make diligent use of the Website, 
-                as well as the information related to the products contained therein, in full 
-                compliance with applicable regulations and these General Conditions.
+                The Legal Notice regulates the access, browsing, and use of the Website, as well as the liabilities 
+                arising from the use of its content, texts, graphics, drawings, designs, photographs, software, 
+                codes, databases, images, information, or any other creation protected by national laws and 
+                international treaties on intellectual and industrial property.
               </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                The conditions governing the various services available on the Website are subject to the following 
+                regulations, where applicable:
+              </p>
+              <ul className="text-muted-foreground leading-relaxed mt-4 list-disc list-inside space-y-2">
+                <li>
+                  Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the 
+                  protection of natural persons with regard to the processing of personal data and on the free 
+                  movement of such data, and repealing Directive 95/46/EC (hereinafter, &quot;GDPR&quot;).
+                </li>
+                <li>
+                  Organic Law 3/2018, of December 5, on the Protection of Personal Data and guarantee of digital 
+                  rights (hereinafter, &quot;LOPDGDD&quot;).
+                </li>
+                <li>
+                  Act 34/2002, of July 11, on information society services and electronic commerce (hereinafter, &quot;LSSI&quot;).
+                </li>
+                <li>
+                  Any other current regulations that may apply.
+                </li>
+              </ul>
             </section>
 
             {/* Section 3 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                3. Disclaimer
+                3. Ownership of the Website
               </h2>
-              
-              <h3 className="text-lg font-semibold text-foreground mb-3">
-                3.1 Use of the Website
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                The PROVIDER, in compliance with its quality standards and comprehensive user care, 
-                continuously reviews the information published using its technology and qualified 
-                personnel, doing everything possible to ensure that the information is truthful 
-                and accurate within the limits of current technology. However, it may occasionally 
-                contain inaccuracies, typos, or errors of any kind.
-              </p>
-
-              <h3 className="text-lg font-semibold text-foreground mb-3">
-                3.2 Modification of Website Information
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                The PROVIDER reserves the right to make modifications, deletions, or updates to the
-                 information contained on the Website, its configuration, or presentation at any time
-                  and without prior notice.
-              </p>
-
-              <h3 className="text-lg font-semibold text-foreground mb-3">
-                3.3 Use of Website Information
-              </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Both access to the Website and the use that may be made of any information 
-                contained therein are the exclusive responsibility of the user. The PROVIDER 
-                will not be responsible for any damage or harm that may arise, directly or 
-                indirectly, from the access or use of the information contained on the Website, 
-                especially with regard to information related to third parties other than the 
-                PROVIDER.
+                In compliance with Article 10 of the LSSI, MANANA SPIRIT SL, with NIF B75297101 and registered 
+                office at Calle de la Princesa, 31, planta segunda, Moncloa, 28008, Madrid.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                All products and services contained on the Website are provided by MANANA Tour in accordance 
+                with current regulations.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Throughout your browsing experience, other means of contact may be made available or displayed, 
+                particularly email addresses and links to forms, to which you may direct corresponding suggestions, 
+                clarifications, or any other matters.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Likewise, we inform you that MANANA Tour is the owner of, or holds the corresponding license to 
+                use, the various contents, texts, photographs, drawings, designs, software, source code, and 
+                information incorporated for this purpose and displayed throughout the Website.
               </p>
             </section>
 
             {/* Section 4 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                4. User Responsibility
+                4. Intellectual and Industrial Property
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Both access to the Website and the use that may be made of any information 
-                contained therein are the exclusive responsibility of the user. The PROVIDER 
-                is not responsible for any damage or harm that may arise, directly or indirectly, 
-                from the access or use of the information contained on the Website, particularly 
-                information related to third parties other than the PROVIDER.
+                MANANA Tour is the owner of, or holds the corresponding license to use, the intellectual and 
+                industrial property exploitation rights of the Website, as well as the content available through 
+                it. In no case shall allowing the user access to the Website be construed as a waiver, transfer, 
+                license, or assignment, in whole or in part, of said rights by MANANA Tour.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                It is expressly forbidden to delete, bypass, or manipulate any identification data regarding the 
+                rights of the Website owner or its holders incorporated into the content, as well as any technical 
+                protection devices or any information and/or identification mechanisms incorporated into the content. 
+                Furthermore, it is forbidden to modify, copy, reuse, exploit, reproduce, publicly communicate, make 
+                second or subsequent publications, upload files, send by mail, transmit, use, process, or distribute 
+                in any way all or part of the content included on the Website for public or commercial purposes 
+                without the express written authorization of MANANA Tour or, where applicable, the corresponding 
+                rights holder.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                The domain owned by MANANA Tour may not be used in connection with other content, products, or 
+                services that are not owned by it, when such action may cause confusion for the end-user or 
+                discredit the company. MANANA Tour reserves the right to use the domain or denomination in the 
+                field where its owner carries out its activities and related areas. Similarly, it reserves the 
+                right to prevent the use of domains derived from them which, due to their similarity, could lead 
+                to error or confusion regarding the signs, denominations, or business origin of the services.
               </p>
             </section>
 
             {/* Section 5 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                5. Personal Data Protection
+                5. Hypertext Links to the Website
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                The PROVIDER undertakes to comply with current legislation on automated data 
-                processing and, in particular, Organic Law 15/99 of December 13 on Personal 
-                Data Protection (hereinafter LOPD). We invite you to read our{" "}
-                <Link href="/privacy" className="text-primary hover:text-primary/80 underline">
-                  Privacy Policy
-                </Link>{" "}
-                for further details.
+                The user may access content provided, meaning reproduced, on third-party websites, but may not 
+                perform operations and/or actions other than those established in the legal terms or conditions 
+                by said third parties for the access, use, and exploitation of their content. For this reason, 
+                if you access a third-party website through the links provided on our Website, an information 
+                window will be displayed to inform you about it.
               </p>
             </section>
 
             {/* Section 6 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                6. Cookies
+                6. General Limitation of Liability
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Part of the PROVIDER's services use cookies. We invite you to read our
-                 Cookie Policy for further details.
+                MANANA Tour is not responsible for any misuse that the user may make of the Website, nor for 
+                the continuity of the content, among other actions.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                The insertion, linking, or mention of any advertising, directly or indirectly, in the services 
+                that MANANA Tour makes available to you on this Website is expressly prohibited.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                MANANA Tour excludes any liability for damages of any nature that may be due to the user&apos;s 
+                utilization of the services provided.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                The user shall be liable for damages of any nature that MANANA Tour may suffer as a consequence 
+                of non-compliance due to malpractice regarding the services and/or undue use of the content, as 
+                well as those arising from legislation, international standards, and actions taken within national 
+                and/or international jurisdictions.
               </p>
             </section>
 
             {/* Section 7 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                7. Copyright, Trademarks, and Software
+                7. Information Security
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                All contents of this Website, including text, trademarks, graphics, logos, icons, 
-                buttons, images, and software, are the property of the PROVIDER or its content providers 
-                and are protected by national and international industrial and intellectual property laws.
-                The selection, collection, arrangement, programming, design, and assembly of all Website 
-                content is the exclusive property of the PROVIDER and is protected by national and international 
-                industrial and intellectual property laws. All software used on the Website is the property 
-                of the PROVIDER or its software suppliers and is protected by national and international industrial 
-                and intellectual property laws. Any other use of the Website's content or photographs, including
-                reproduction, modification, distribution, transmission, subsequent publication, display, or total
-                or partial representation, without the express consent of the PROVIDER or its suppliers, is
-                strictly prohibited. The PROVIDER, as well as its graphics and logos, are protected trademarks 
-                in the European Union and other countries. The names of other products, services, and companies
-                mentioned herein may be registered trademarks of their respective owners.
+                MANANA Tour keeps any data provided by the user protected by means of a current and valid SSL 
+                (&quot;Secure Sockets Layer&quot;) security certificate, which creates an encrypted link between the web 
+                server and your browser in order to guarantee security between internet connections, preventing 
+                potential cybercriminals from accessing or modifying the information transferred between the 
+                two systems.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Through this certificate, MANANA Tour guarantees the protection of any information provided by 
+                the user, such as:
+              </p>
+              <ul className="text-muted-foreground leading-relaxed mt-4 list-disc list-inside space-y-2">
+                <li>Log-in credentials.</li>
+                <li>Debit/credit card transactions or financial information.</li>
+                <li>Personally identifiable information, such as full name, address, date of birth, or phone number.</li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                In this regard, the Confidentiality and Integrity of the information that the user may provide 
+                is guaranteed through the cryptographic encryption of all communications using the SHA-256 hash 
+                signature algorithm.
               </p>
             </section>
 
             {/* Section 8 */}
             <section>
               <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
-                8. Applicable Law and Jurisdiction
+                8. Suspension of Website Access and Services
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Access to and use of the Website shall be governed by and interpreted in accordance 
-                with Spanish law. Any controversy that may arise from the application of these conditions 
-                shall be settled before the courts of Madrid (Spain), without prejudice to any other 
-                jurisdiction that may correspond to the plaintiff party, in accordance with the provisions 
-                of the applicable procedural regulations.
+                MANANA Tour may choose to interrupt, suspend, or unilaterally terminate access to the content 
+                of the Website, regardless of the provisions in these conditions. These situations shall not 
+                alter the validity of the prohibitions on the use of the content set forth in the Legal Notice.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Furthermore, MANANA Tour will take appropriate measures, as far as possible, to notify users 
+                of this suspension, interruption, or termination of access to the content.
+              </p>
+            </section>
+
+            {/* Section 9 */}
+            <section>
+              <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
+                9. Nullity and Ineffectiveness of Clauses
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                In the event that any provision or provisions of these conditions are considered null or 
+                inapplicable, in whole or in part, by any competent Court, Tribunal, or administrative body, 
+                such nullity or inapplicability shall not affect the remaining conditions contained on the Website.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                The failure of MANANA Tour to exercise or enforce any right or provision contained in these 
+                conditions shall not constitute a waiver thereof, unless acknowledged and agreed to in writing 
+                by the company.
+              </p>
+            </section>
+
+            {/* Section 10 */}
+            <section>
+              <h2 className="font-serif text-2xl font-bold text-foreground mb-4">
+                10. Applicable Law and Jurisdiction
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                All terms of use inserted on this Website are governed by Spanish regulations. All conflicts, 
+                controversies, or situations arising from these conditions shall be submitted to the Courts 
+                and Tribunals of Madrid, with the parties expressly waiving any other jurisdiction that may 
+                correspond to them.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                These terms of use are valid for as long as they remain displayed. Therefore, MANANA Tour 
+                advises the user to review them carefully each time they access the Website.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                MANANA Tour reserves the right to unilaterally modify these conditions at any time, in whole 
+                or in part. The modification will take effect from the moment of its publication on the Website.
               </p>
             </section>
           </div>
@@ -213,7 +273,7 @@ export default function LegalNoticePage() {
       </main>
 
       {/* Footer */}
-     <TravelFooter />
+      <TravelFooter />
     </div>
   )
 }
