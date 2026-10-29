@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "title": "Abby Luxury Boutique | Luxury Travel to Dubai, Abu Dhabi & Egypt",
+    "description": "Luxury tours and travel programs across the Middle East: Dubai, Abu Dhabi, Qatar and Egypt. Tailor-made journeys with 5* hotels, private transfers and bilingual assistance."
+  },
+  "language": {
+    "label": "Language",
+    "switchTo": "Switch language to {language}"
+  },
+  "common": {
+    "bookNow": "Book now"
+  },
+  "nav": {
+    "home": "Home",
+    "destinations": "Destinations",
+    "tours": "Tours",
+    "packages": "Programs",
+    "about": "About",
+    "contact": "Contact",
+    "toggleMenu": "Toggle menu",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Luxury travel experiences",
+    "title": "Discover the Wonders of the Middle East",
+    "subtitle": "Experience uncompromising luxury in Dubai, Qatar, Egypt and beyond. Journeys crafted for those who seek the exceptional.",
+    "ctaPrimary": "Explore destinations",
+    "ctaSecondary": "View programs",
+    "scroll": "Scroll to destinations",
+    "imageAlt": "Luxury desert landscape at sunset"
+  },
+  "destinations": {
+    "eyebrow": "Our destinations",
+    "title": "Explore the Middle East",
+    "subtitle": "From ancient pyramids to futuristic skylines, discover the most captivating destinations in the Middle East.",
+    "exploreLabel": "Explore",
+    "items": [
+      {
+        "slug": "dubai",
+        "name": "Dubai",
+        "country": "UAE",
+        "image": "/dubai.jpg",
+        "imageAlt": "Dubai skyline with the Burj Khalifa",
+        "description": "The city of gold and architectural marvels"
+      },
+      {
+        "slug": "doha",
+        "name": "Doha",
+        "country": "Qatar",
+        "image": "/qatar.jpg",
+        "imageAlt": "Doha skyline across the bay",
+        "description": "Modern luxury meets Arabian heritage"
+      },
+      {
+        "slug": "cairo",
+        "name": "Cairo",
+        "country": "Egypt",
+        "image": "/egypt.jpg",
+        "imageAlt": "Pyramids of Giza in Egypt",
+        "description": "Ancient wonders and timeless mysteries"
+      },
+      {
+        "slug": "abu-dhabi",
+        "name": "Abu Dhabi",
+        "country": "UAE",
+        "image": "/abudhabi.jpg",
+        "imageAlt": "Sheikh Zayed Grand Mosque in Abu Dhabi",
+        "description": "Cultural elegance and serene beauty"
+      },
+      {
+        "slug": "petra",
+        "name": "Petra",
+        "country": "Jordan",
+        "image": "/jordan.jpg",
+        "imageAlt": "Rock-cut tomb in Petra, Jordan",
+        "description": "The rose city carved in stone"
+      }
+    ]
+  },
+  "tours": {
+    "eyebrow": "Our tours",
+    "title": "Tours & excursions",
+    "subtitle": "Six carefully designed itineraries across Dubai, Abu Dhabi and the east coast, with private transfers and expert local guides.",
+    "cta": "Request information",
+    "items": [
+      {
+        "number": "01",
+        "tag": "Classic & Modern",
+        "name": "Historic & Futuristic Dubai",
+        "duration": "Full day · 9 h",
+        "image": "/tours/dubai-historico.jpg",
+        "imageAlt": "Wind towers and alleys of Al Bastakiya, historic Dubai by the Creek",
+        "description": "The Dubai of yesterday and the Dubai of tomorrow in a single day: Jumeirah Mosque, the wind-tower lanes of Al Bastakiya, the spice and gold souks, an abra ride across the Creek and a grand finale at the Dubai Mall fountain.",
+        "highlights": [
+          "Jumeirah Mosque",
+          "Al Bastakiya",
+          "Creek souks",
+          "Abra ride",
+          "Dubai Mall fountain"
+        ]
+      },
+      {
+        "number": "02",
+        "tag": "Elite experience",
+        "name": "Historic & Futuristic Dubai · Elite",
+        "duration": "Full day · private",
+        "image": "/tours/dubai-elite.jpg",
+        "imageAlt": "Burj Khalifa and the Dubai skyline at sunset, the city washed in gold",
+        "description": "The same route with another level of detail: a private guide, premium vehicle transfers, priority access to the Burj Khalifa observation deck and a signature dinner facing the illuminated fountain.",
+        "highlights": [
+          "Private guide (EN/ES)",
+          "Priority Burj Khalifa access",
+          "Signature dinner",
+          "Premium vehicle"
+        ]
+      },
+      {
+        "number": "03",
+        "tag": "Nightlife",
+        "name": "Dubai by Night",
+        "duration": "Evening · 4 h",
+        "image": "/tours/dubai-nocturno.jpg",
+        "imageAlt": "Illuminated Dubai skyline at night with light trails along the avenues",
+        "description": "When the sun goes down Dubai changes its skin: Sheikh Zayed Road, Dubai Marina, the Madinat Jumeirah souk and the Burj Khalifa fountain after dark, with a final drink on a rooftop overlooking the city.",
+        "highlights": [
+          "Sheikh Zayed Road",
+          "Dubai Marina",
+          "Madinat Jumeirah",
+          "Rooftop with a view"
+        ]
+      },
+      {
+        "number": "04",
+        "tag": "Capital",
+        "name": "Abu Dhabi · Manhattan",
+        "duration": "Full day · 10 h",
+        "image": "/abudhabi.jpg",
+        "imageAlt": "Sheikh Zayed Grand Mosque in Abu Dhabi with its white domes",
+        "description": "The Emirati capital and its glass skyline: the Corniche, Al Maryah Island and the financial district, crowned by the Sheikh Zayed Grand Mosque.",
+        "highlights": [
+          "Sheikh Zayed Mosque",
+          "Corniche",
+          "Al Maryah Island",
+          "Financial district"
+        ]
+      },
+      {
+        "number": "05",
+        "tag": "Art & Palace",
+        "name": "Abu Dhabi · Louvre + Qasr Al Watan",
+        "duration": "Full day · 9 h",
+        "image": "/tours/abu-dhabi-cultura.jpg",
+        "imageAlt": "Interior of Louvre Abu Dhabi beneath the dome and its rain of light",
+        "description": "Art and power in one day: the rain of light under the Louvre Abu Dhabi dome and the marble halls of the presidential palace Qasr Al Watan.",
+        "highlights": [
+          "Louvre Abu Dhabi",
+          "Dome of light",
+          "Qasr Al Watan",
+          "Presidential gardens"
+        ]
+      },
+      {
+        "number": "06",
+        "tag": "Nature",
+        "name": "Fujairah & the East Coast",
+        "duration": "Full day · 10 h",
+        "image": "/tours/fujairah-costa-este.jpg",
+        "imageAlt": "Historic Fujairah fort with the Hajar Mountains behind it",
+        "description": "The other emirate, where the desert meets the sea: the Hajar Mountains, the historic Fujairah fort and the turquoise waters of Khor Fakkan.",
+        "highlights": [
+          "Fujairah Fort",
+          "Hajar Mountains",
+          "Khor Fakkan",
+          "Beach & snorkelling"
+        ]
+      }
+    ]
+  },
+  "packages": {
+    "eyebrow": "Programs & Journeys",
+    "title": "Tailor-made programs & journeys",
+    "subtitle": "Five complete programs with flights, hotels and experiences already combined. All of them are customisable: we adjust nights, hotel category and activities to your own pace.",
+    "cta": "Request a quote",
+    "items": [
+      {
+        "name": "Stop Over Dubai",
+        "tag": "Express escape",
+        "duration": "3 days / 2 nights",
+        "image": "/programs/stop-over-dubai.jpg",
+        "imageAlt": "Dubai skyline at sunset seen from the main avenue",
+        "description": "Two nights to fall in love with the city: private airport pickup, a 5* hotel in the centre, a panoramic city tour, the Burj Khalifa at sunset and your transfer back. Perfect for a long layover or a weekend.",
+        "includes": [
+          "2 nights in a 5* hotel with breakfast",
+          "Private airport–hotel transfers",
+          "Panoramic Dubai city tour",
+          "Burj Khalifa ticket (level 124)",
+          "24/7 assistance in English & Spanish"
+        ]
+      },
+      {
+        "name": "Essential Dubai",
+        "tag": "The complete classic",
+        "duration": "4 days / 3 nights",
+        "image": "/programs/dubai-esencial.jpg",
+        "imageAlt": "Traditional abras sailing the Dubai Creek",
+        "description": "The essentials of Dubai in four days: the historic and the modern city, the fountain show, a desert safari with dinner under the stars and free time in Dubai Marina.",
+        "includes": [
+          "3 nights in a 5* hotel",
+          "Historic and modern city tour",
+          "Abra ride across the Creek",
+          "Desert safari with dinner",
+          "Free afternoon in Dubai Marina",
+          "Guide and transfers in English & Spanish"
+        ]
+      },
+      {
+        "name": "3 Emirates",
+        "tag": "Three emirates, one route",
+        "duration": "5 days / 4 nights",
+        "image": "/programs/tres-emiratos.jpg",
+        "imageAlt": "Sharjah skyline facing Al Majaz lagoon in the United Arab Emirates",
+        "description": "A journey through the three great emirates: Dubai, Abu Dhabi and Sharjah. From the Burj Khalifa skyline to the domes of the Sheikh Zayed Mosque and the cultural heritage of Sharjah.",
+        "includes": [
+          "4 nights in 5* hotels",
+          "Dubai: Burj Khalifa and Dubai Mall",
+          "Abu Dhabi: Sheikh Zayed Mosque",
+          "Sharjah: historic quarter and museums",
+          "Private transport between emirates",
+          "Accompanying guide"
+        ]
+      },
+      {
+        "name": "Madinat",
+        "tag": "Signature journey",
+        "duration": "7 days / 6 nights",
+        "image": "/programs/madinat.jpg",
+        "imageAlt": "Dubai at night with the Burj Khalifa illuminated",
+        "description": "Our most complete route: a luxury hotel with views, a private sunset cruise along the Marina, a desert safari, a full day in Abu Dhabi and a special evening in Madinat Jumeirah.",
+        "includes": [
+          "6 nights in a 5* hotel with views",
+          "Private cruise along Dubai Marina",
+          "Private safari with gourmet dinner",
+          "Full day in Abu Dhabi",
+          "Dinner at Madinat Jumeirah",
+          "Personal 24/7 concierge"
+        ]
+      },
+      {
+        "name": "Family & Adventure",
+        "tag": "For the whole family",
+        "duration": "7 days / 6 nights",
+        "image": "/programs/familia-aventura.jpg",
+        "imageAlt": "Dubai desert dunes, the setting of the 4x4 safari",
+        "description": "A journey designed to be enjoyed as a family: a 4x4 safari over the dunes, water and theme parks, a beach day in Jumeirah and the fountain show to close every day.",
+        "includes": [
+          "6 nights in a family-friendly 5* hotel",
+          "4x4 safari over the dunes",
+          "Water park tickets",
+          "Motiongate, Legoland or IMG",
+          "Beach day in Jumeirah",
+          "Private transfers for the group"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Your Gateway to Luxury Travel",
+    "body1": "For over a decade we have been crafting extraordinary travel experiences across the Middle East. Our team of expert travel consultants combines local knowledge with world-class service to create journeys that exceed expectations.",
+    "body2": "From the golden dunes of Dubai to the ancient wonders of Egypt, we make sure every moment of your journey is nothing short of exceptional. Our partnerships with the finest hotels, airlines and local guides guarantee an experience that is both authentic and luxurious.",
+    "badgeValue": "10+",
+    "badgeLabel": "Years of excellence",
+    "imageAlt": "Luxury travel experience in Dubai",
+    "stats": [
+      { "value": "15,000+", "label": "Happy travellers" },
+      { "value": "25+", "label": "Destinations" },
+      { "value": "10+", "label": "Years of experience" },
+      { "value": "100%", "label": "Secure booking" }
+    ],
+    "teamEyebrow": "Our team",
+    "teamTitle": "Meet the team",
+    "team": [
+      { "name": "Liudmila", "role": "Head of Sales", "image": "/Liu.jpeg" },
+      { "name": "Abby", "role": "Administrator", "image": "/Abby.jpeg" },
+      { "name": "Yamilet", "role": "Marketing Director", "image": "/Yami.jpeg" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Start your journey",
+    "subtitle": "Ready to experience the luxury of the Middle East? Talk to our travel experts and let us craft your perfect journey.",
+    "callTitle": "Call us",
+    "phone": "+34 699 85 88 03",
+    "emailTitle": "Email us",
+    "email": "abby@abbyluxuryboutique.com",
+    "visitTitle": "Visit us",
+    "address1": "C. de Méndez Álvaro, 20",
+    "address2": "Arganzuela, 28045 Madrid, Spain",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "destination": "Destination of interest",
+      "message": "Tell us about your dream trip...",
+      "submit": "Send inquiry"
+    }
+  },
+  "footer": {
+    "tagline": "Crafting extraordinary travel experiences across the Middle East for discerning travellers who seek the exceptional.",
+    "destinationsTitle": "Destinations",
+    "companyTitle": "Company",
+    "supportTitle": "Support",
+    "links": {
+      "destinations": [
+        { "label": "Dubai", "href": "#destinations" },
+        { "label": "Qatar", "href": "#destinations" },
+        { "label": "Egypt", "href": "#destinations" },
+        { "label": "Jordan", "href": "#destinations" },
+        { "label": "Abu Dhabi", "href": "#destinations" }
+      ],
+      "company": [
+        { "label": "About us", "href": "#about" },
+        { "label": "Our team", "href": "#about" },
+        { "label": "Tours", "href": "#tours" },
+        { "label": "Programs", "href": "#packages" }
+      ],
+      "support": [
+        { "label": "Contact", "href": "#contact" },
+        { "label": "Cookies", "href": "/cookies" },
+        { "label": "Legal notice", "href": "/legal" },
+        { "label": "Privacy policy", "href": "/privacy" }
+      ]
+    },
+    "copyright": "Abby Luxury Boutique SL. All rights reserved.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "youtube": "YouTube"
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "Chat with us on WhatsApp",
+    "tooltip": "Shall we talk on WhatsApp?",
+    "message": "Hi Abby Luxury Boutique, I would like more information about your trips."
+  }
+}

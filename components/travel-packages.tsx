@@ -1,116 +1,80 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
-import { Check, Star } from "lucide-react"
+import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight, CalendarDays, Check } from "lucide-react"
 
-const packages = [
-  {
-    name: "Dubai Luxe",
-    duration: "5 Days / 4 Nights",
-    price: "$2,499",
-    featured: false,
-    includes: [
-      "5-star hotel accommodation",
-      "Private desert safari",
-      "Burj Khalifa VIP access",
-      "Luxury yacht dinner cruise",
-      "Airport transfers",
-    ],
-  },
-  {
-    name: "Middle East Grand Tour",
-    duration: "12 Days / 11 Nights",
-    price: "$6,999",
-    featured: true,
-    includes: [
-      "Dubai, Qatar & Egypt",
-      "All luxury accommodations",
-      "Private guided tours",
-      "Exclusive experiences",
-      "Business class flights",
-      "24/7 concierge service",
-    ],
-  },
-  {
-    name: "Egyptian Discovery",
-    duration: "7 Days / 6 Nights",
-    price: "$3,299",
-    featured: false,
-    includes: [
-      "5-star Nile cruise",
-      "Pyramids private tour",
-      "Luxor & Valley of Kings",
-      "Hot air balloon ride",
-      "All meals included",
-    ],
-  },
-]
+import type { Dictionary } from "@/i18n/request"
 
-export function TravelPackages() {
+export function TravelPackages({ dict }: { dict: Dictionary["packages"] }) {
+  const programs = dict.items
+
   return (
-    <section id="packages" className="py-24 px-6 bg-secondary/30">
+    <section id="packages" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Exclusive Packages
+            {dict.eyebrow}
           </p>
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Curated Luxury Journeys
+            {dict.title}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Handcrafted travel experiences designed for those who seek the extraordinary. 
-            Every detail perfected for your comfort.
+            {dict.subtitle}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {packages.map((pkg) => (
-            <Card
-              key={pkg.name}
-              className={`relative bg-card border-border/50 ${
-                pkg.featured ? "ring-2 ring-primary" : ""
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {programs.map((program, index) => (
+            <article
+              key={program.name}
+              className={`group flex flex-col overflow-hidden rounded-xl border border-border/50 bg-card shadow-sm transition-all duration-300 hover:border-primary/40 hover:shadow-lg lg:flex-row ${
+                index === programs.length - 1 ? "md:col-span-2" : ""
               }`}
             >
-              {pkg.featured && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium flex items-center gap-1">
-                  <Star className="h-3 w-3 fill-current" /> Most Popular
-                </div>
-              )}
-              <CardHeader className="text-center pb-4">
-                <p className="text-primary text-sm font-medium tracking-wider uppercase mb-2">
-                  {pkg.duration}
+              <div className="relative h-56 w-full shrink-0 overflow-hidden lg:h-auto lg:w-1/3">
+                <Image
+                  src={program.image}
+                  alt={program.imageAlt}
+                  fill
+                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-card/40" />
+              </div>
+
+              <div className="flex flex-1 flex-col gap-4 p-6">
+                <p className="text-primary text-xs font-medium tracking-[0.2em] uppercase">
+                  {program.tag}
                 </p>
                 <h3 className="font-serif text-2xl font-bold text-foreground">
-                  {pkg.name}
+                  {program.name}
                 </h3>
-              </CardHeader>
-              <CardContent className="text-center">
-                <div className="mb-6">
-                  <span className="font-serif text-4xl font-bold text-foreground">
-                    {pkg.price}
-                  </span>
-                  <span className="text-muted-foreground text-sm"> / person</span>
-                </div>
-                <ul className="space-y-3 text-left">
-                  {pkg.includes.map((item) => (
-                    <li key={item} className="flex items-center gap-3 text-foreground/80">
-                      <Check className="h-4 w-4 text-primary shrink-0" />
+                <p className="flex items-center gap-2 text-sm font-medium text-foreground/70">
+                  <CalendarDays className="h-4 w-4 text-primary" />
+                  {program.duration}
+                </p>
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  {program.description}
+                </p>
+                <ul
+                  className={`grid grid-cols-1 gap-x-4 gap-y-2 ${
+                    index === programs.length - 1 ? "sm:grid-cols-2" : ""
+                  }`}
+                >
+                  {program.includes.map((item) => (
+                    <li key={item} className="flex items-start gap-2 text-foreground/80">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                       <span className="text-sm">{item}</span>
                     </li>
                   ))}
                 </ul>
-              </CardContent>
-              <CardFooter>
-                <Button
-                  className={`w-full ${
-                    pkg.featured
-                      ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                      : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
-                  }`}
+                <Link
+                  href="#contact"
+                  className="mt-auto inline-flex items-center gap-2 pt-2 text-sm font-medium text-primary transition-all hover:gap-3"
                 >
-                  Book This Package
-                </Button>
-              </CardFooter>
-            </Card>
+                  {dict.cta} <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </article>
           ))}
         </div>
       </div>

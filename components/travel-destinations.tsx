@@ -2,66 +2,34 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
-const destinations = [
-  {
-    name: "Dubai",
-    country: "UAE",
-    image: "/dubai.jpg",
-    description: "The city of gold and architectural marvels",
-  },
-  {
-    name: "Doha",
-    country: "Qatar",
-    image: "/qatar.jpg",
-    description: "Modern luxury meets Arabian heritage",
-  },
-  {
-    name: "Cairo",
-    country: "Egypt",
-    image: "/egypt.jpg",
-    description: "Ancient wonders and timeless mysteries",
-  },
-  {
-    name: "Abu Dhabi",
-    country: "UAE",
-    image: "/abudhabi.jpg",
-    description: "Cultural elegance and serene beauty",
-  },
-  {
-    name: "Petra",
-    country: "Jordan",
-    image: "/jordan.jpg",
-    description: "The rose city carved in stone",
-  },
-]
+import type { Dictionary } from "@/i18n/request"
 
-export function TravelDestinations() {
+export function TravelDestinations({ dict }: { dict: Dictionary["destinations"] }) {
   return (
     <section id="destinations" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Our Destinations
+            {dict.eyebrow}
           </p>
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Explore the Middle East
+            {dict.title}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            From ancient pyramids to futuristic skylines, discover the most 
-            captivating destinations in the Middle East.
+            {dict.subtitle}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {destinations.slice(0, 3).map((destination) => (
+          {dict.items.slice(0, 3).map((destination) => (
             <Link
-              key={destination.name}
-              href={`#${destination.name.toLowerCase()}`}
+              key={destination.slug}
+              href={`#${destination.slug}`}
               className="group relative h-96 overflow-hidden rounded-lg"
             >
               <Image
                 src={destination.image || "/placeholder.svg"}
-                alt={destination.name}
+                alt={destination.imageAlt}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
@@ -77,7 +45,7 @@ export function TravelDestinations() {
                   {destination.description}
                 </p>
                 <span className="inline-flex items-center gap-2 text-primary text-sm font-medium group-hover:gap-3 transition-all">
-                  Explore <ArrowRight className="h-4 w-4" />
+                  {dict.exploreLabel} <ArrowRight className="h-4 w-4" />
                 </span>
               </div>
             </Link>
@@ -85,15 +53,15 @@ export function TravelDestinations() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-          {destinations.slice(3).map((destination) => (
+          {dict.items.slice(3).map((destination) => (
             <Link
-              key={destination.name}
-              href={`#${destination.name.toLowerCase()}`}
+              key={destination.slug}
+              href={`#${destination.slug}`}
               className="group relative h-80 overflow-hidden rounded-lg"
             >
               <Image
                 src={destination.image || "/placeholder.svg"}
-                alt={destination.name}
+                alt={destination.imageAlt}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
@@ -109,7 +77,7 @@ export function TravelDestinations() {
                   {destination.description}
                 </p>
                 <span className="inline-flex items-center gap-2 text-primary text-sm font-medium group-hover:gap-3 transition-all">
-                  Explore <ArrowRight className="h-4 w-4" />
+                  {dict.exploreLabel} <ArrowRight className="h-4 w-4" />
                 </span>
               </div>
             </Link>

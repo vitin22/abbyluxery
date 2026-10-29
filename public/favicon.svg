@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Abby Luxury Boutique">
+  <defs>
+    <linearGradient id="gold" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7E6AE" />
+      <stop offset="0.55" stop-color="#D9B96B" />
+      <stop offset="1" stop-color="#B98F3F" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0C0C0C" />
+  <path
+    d="M32 6.5 57.5 32 32 57.5 6.5 32Z"
+    fill="none"
+    stroke="url(#gold)"
+    stroke-width="3.2"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M32 20.5 23.6 44M32 20.5 40.4 44M26.6 37.2h10.8"
+    fill="none"
+    stroke="url(#gold)"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

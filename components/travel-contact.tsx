@@ -5,20 +5,21 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, Phone, MapPin } from "lucide-react"
 
-export function TravelContact() {
+import type { Dictionary } from "@/i18n/request"
+
+export function TravelContact({ dict }: { dict: Dictionary["contact"] }) {
   return (
     <section id="contact" className="py-24 px-6 bg-secondary/30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Get in Touch
+            {dict.eyebrow}
           </p>
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Start Your Journey
+            {dict.title}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Ready to experience the luxury of the Middle East? Contact our travel 
-            experts and let us craft your perfect journey.
+            {dict.subtitle}
           </p>
         </div>
 
@@ -29,9 +30,8 @@ export function TravelContact() {
                 <Phone className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
-                <p className="text-muted-foreground">+34 699 85 88 03</p>
-                
+                <h3 className="font-semibold text-foreground mb-1">{dict.callTitle}</h3>
+                <p className="text-muted-foreground">{dict.phone}</p>
               </div>
             </div>
 
@@ -40,8 +40,8 @@ export function TravelContact() {
                 <Mail className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Email Us</h3>
-                <p className="text-muted-foreground">abby@abbyluxuryboutique.com</p>
+                <h3 className="font-semibold text-foreground mb-1">{dict.emailTitle}</h3>
+                <p className="text-muted-foreground">{dict.email}</p>
               </div>
             </div>
 
@@ -50,9 +50,9 @@ export function TravelContact() {
                 <MapPin className="h-5 w-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-semibold text-foreground mb-1">Visit Us</h3>
-                <p className="text-muted-foreground">C. de Mendez Alvaro,20</p>
-                <p className="text-muted-foreground">Arganzuela, 28045 ,Madrid,España</p>
+                <h3 className="font-semibold text-foreground mb-1">{dict.visitTitle}</h3>
+                <p className="text-muted-foreground">{dict.address1}</p>
+                <p className="text-muted-foreground">{dict.address2}</p>
               </div>
             </div>
           </div>
@@ -60,26 +60,26 @@ export function TravelContact() {
           <form className="space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Input
-                placeholder="Your Name"
+                placeholder={dict.form.name}
                 className="bg-background border-border"
               />
               <Input
                 type="email"
-                placeholder="Your Email"
+                placeholder={dict.form.email}
                 className="bg-background border-border"
               />
             </div>
             <Input
-              placeholder="Destination of Interest"
+              placeholder={dict.form.destination}
               className="bg-background border-border"
             />
             <Textarea
-              placeholder="Tell us about your dream trip..."
+              placeholder={dict.form.message}
               rows={5}
               className="bg-background border-border resize-none"
             />
             <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-6">
-              Send Inquiry
+              {dict.form.submit}
             </Button>
           </form>
         </div>
