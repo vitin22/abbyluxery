@@ -38,7 +38,7 @@ export default function CheckoutPage() {
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-medium">Phone Number</label>
-                  <Input type="tel" placeholder="+34 699 85 88 03" />
+                  <Input type="tel" placeholder="+34 690143868" />
                 </div>
               </div>
             </CardContent>

@@ -1,0 +1,36 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Connect to VPS and Deploy
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USERNAME }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            cd /ruta/a/tu/proyecto/en/el/vps
+            
+            # 1. Traer el último código de GitHub
+            git pull origin main
+            
+            # 2. Reconstruir la imagen de Docker con el nuevo código
+            docker build -t vitiyou/luxury .
+            
+            # 3. Detener y eliminar el contenedor viejo si existe
+            docker stop luxery || true
+            docker rm luxery || true
+            
+            # 4. Arrancar el contenedor con autorestart
+            docker run --name=luxery --restart unless-stopped -p 3011:3000 --detach=true -t vitiyou/luxury
+            
+            # 5. Limpiar imágenes no utilizadas
+            docker image prune -f

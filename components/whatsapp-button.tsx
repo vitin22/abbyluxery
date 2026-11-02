@@ -11,7 +11,7 @@ export function WhatsAppButton({
   tooltip = "¿Hablamos por WhatsApp?",
   message = "Hola Abby Luxury Boutique, me gustaría solicitar información.",
 }: WhatsAppButtonProps = {}) {
-  const phoneNumber = "34699858803" // Reemplaza con tu número (con código de país)
+  const phoneNumber = "34690143868" // Reemplaza con tu número (con código de país)
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
   return (
