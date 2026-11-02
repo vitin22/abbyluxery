@@ -17,7 +17,7 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd /ruta/a/tu/proyecto/en/el/vps
+            cd /home/vitiyou/appDocker/abbyluxery
             
             # 1. Traer el último código de GitHub
             git pull origin main
